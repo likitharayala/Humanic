@@ -111,9 +111,6 @@ function App() {
           <h2>HUMANIC</h2>
           <p>AI Assistant</p>
         </div>
-        <button className="clear-button" onClick={clearChat} title="Clear Chat">
-          <Trash2 size={18} />
-        </button>
       </header>
 
       <div className="chat-messages">
