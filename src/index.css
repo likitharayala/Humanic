@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
   --primary-color: #0b0b0b;
@@ -36,4 +36,55 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary-color: #0b0b0b;
+  --secondary-color: #2c2c2e;
+  --accent-color: #007bff;
+
+  /* ✅ PAGE BACKGROUND = TRANSPARENT */
+  --background-color: transparent;
+
+  /* ✅ CHATBOX BACKGROUND = WHITE */
+  --chat-bg: #ffffff;
+
+  --text-primary: #1d1d1f;
+  --text-secondary: #86868b;
+  --user-bubble: #1d1d1f;
+  --user-text: #ffffff;
+  --ai-bubble: #f2f2f7;
+  --ai-text: #1d1d1f;
+  --input-bg: #f5f5f7;
+  --border-color: #e5e5e5;
+  --font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* ✅ TRANSPARENT PAGE */
+body {
+  font-family: var(--font-family);
+  background-color: transparent !important;
+  color: var(--text-primary);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ✅ CENTER CHAT, KEEP BACKGROUND TRANSPARENT */
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: transparent !important;
 }
